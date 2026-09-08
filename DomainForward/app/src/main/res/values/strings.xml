@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">域名转发</string>
+
+    <string name="domain_hint">要转发的域名（例如 example.com）</string>
+    <string name="ip_hint">目标 IP（例如 192.168.1.100 或 8.8.8.8）</string>
+    <string name="sub_label">同时匹配该域名的所有子域名</string>
+    <string name="btn_add_rule">添加规则</string>
+    <string name="rules_header">转发规则（点“删除”可移除）</string>
+    <string name="btn_start">开启转发</string>
+    <string name="btn_stop">停止转发</string>
+    <string name="status_idle">● 转发未开启</string>
+    <string name="status_running">● 转发运行中（VPN 已连接）</string>
+
+    <string name="no_rules">请先添加至少一条转发规则</string>
+    <string name="rule_empty">请填写域名和目标 IP</string>
+    <string name="invalid_domain">域名格式不正确</string>
+    <string name="invalid_ip">IP 格式不正确</string>
+    <string name="duplicate_rule">该域名已存在</string>
+    <string name="rule_added">已添加规则</string>
+    <string name="rule_removed">已删除规则</string>
+    <string name="vpn_permission_denied">未授予 VPN 权限，无法开启转发</string>
+    <string name="notif_permission_denied">未授予通知权限（不影响核心功能，可在系统设置中开启）</string>
+    <string name="service_failed">启动 VPN 失败，请确认没有其他 VPN 正在运行后重试</string>
+    <string name="vpn_revoked">转发已停止（VPN 被系统关闭）</string>
+
+    <string name="rule_row_format">「%1$s」→ %2$s</string>
+    <string name="sub_tag">（含子域名）</string>
+    <string name="delete">删除</string>
+
+    <string name="note_dns_cache">提示：开启后如域名仍解析到旧地址，可开关一次飞行模式，或重启需要访问的 App。</string>
+    <string name="note_private_dns">注意：本应用无法拦截“私人 DNS（DoT/DoH）”加密解析。若无效，请在 系统设置 → 网络与互联网 → 私人 DNS 中选择“关闭/自动”。</string>
+    <string name="note_target">目标为内网 IP 时需手机与目标在同一局域网；HTTPS 网站要求目标服务器证书与域名匹配，否则浏览器会有证书警告。</string>
+
+    <string name="running_notif_title">域名转发运行中</string>
+    <string name="running_notif_text">点按可返回 App 管理规则</string>
+    <string name="action_stop">停止</string>
+    <string name="notif_channel_name">转发服务</string>
+</resources>
